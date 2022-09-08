@@ -22,8 +22,8 @@ function App() {
       <Route path ='/contact' element= {<Contact />}></Route>
       <Route path ='/login' element= {<Login />}></Route>
       <Route path ='/cart' element= {<Cart />}></Route>
-      <Route path ='/product' element= {<Product />}></Route>
-      <Route path ='/product:id' element= {<Products />}></Route>
+      <Route path ='/product' element= {<Products />}></Route>
+      <Route path ='product/:id' element= {<Product />}></Route>
       {/* <Route path ='/' element= {<Footer />}></Route> */}
       <Route path ='/signup' element= {<Signup />}></Route>
       <Route path ='/order' element= {<Orders />}></Route>
